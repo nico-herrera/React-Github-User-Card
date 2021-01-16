@@ -1,0 +1,27 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.card-container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  background-color: wheat;
+}
+
+.card-container:hover {
+  width: 305px;
+  height: 255px;
+}
+
+.search-button {
+  margin-bottom: 25px;
+}
